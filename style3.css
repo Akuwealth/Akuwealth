@@ -7,8 +7,8 @@
 header {
 	width: auto;
 	height: 60px;
-	background-color: blue;
-	background-image: url(twenty-pounds-notes.jpg);
+	background-color: none;
+	background-image: none;
 	background-size: cover;
 	padding-top: 10px;
 	text-align: left;
@@ -87,13 +87,15 @@ header a {
 #box2 {
 	
 	height: 500px;
-	background-image: url(twenty-pounds-notes.jpg);	
+	background-image: url(Student4.jpg);	
 	background-size: cover;
 	margin: 0;
+	font-color: blue;
+
 }
  #faqs {
  	height: 950px;
-	background-image: url(twenty-pounds-notes.jpg);	
+	background-image: url(New-car.jpg);	
 	background-size: cover;
 	margin: 0;
 	text-indent: 50px;
@@ -101,12 +103,34 @@ header a {
 #faq1 {
 	text-decoration: underline; 
  }
+
+ #box4 {
+ 	
+	height: 40px;
+	margin: 0;
+	background-color: blue;
+ }
+
 #box3 {
 	height: 500px;
-	background-image: url(twenty-pounds-notes.jpg);	
+	background-image: url("San Diego.jpg");	
 	background-size: cover;
 	margin: 0;
 	text-indent: 30px;
+}
+
+#box5 {
+	height: 500px;
+	background-image: url("San Diego.jpg");	
+	background-size: cover;
+	margin: 0;
+	text-indent: 30px;
+}
+
+#User {
+	float: left;
+	text-indent: 20px;
+	color: blue;
 }
 #Login_Form {
 	position: fixed;
@@ -124,7 +148,7 @@ header a {
 footer {
 	
 	height: 30px;
-	background-color: purple;
+	background-color: none;
 	margin: 0;
 	text-align: center;
 }
@@ -132,20 +156,23 @@ footer {
 	margin: 0;
 }
 
+#ft2 {
+	
+	background: none;
+}
 	
 		#calc{
 			width: 400px;
 			height: 500px;
-			background-color: pink;
+			background-color: #87CEEB;
 			font-weight: 600;
 			color: blue;
-			padding: 10px;
+			padding: 30px;
 			margin-top: 20px;
-			margin-left: 500px;
+			margin-left: 450px;
 			margin-bottom: 20px;
 			border-radius: 100px;
 			font-size: 25px;
-			text-shadow: purple;
 			text-align: center;
 
 
@@ -165,3 +192,5 @@ footer {
 	width: 100px;
 			height: 20px;	
 	}
+
+	#

@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+header {
+	width: auto;
+	height: 60px;
+	background-color: none;
+	background-image: none;
+	background-size: cover;
+	padding-top: 10px;
+	text-align: left;
+
+}
+header a {
+	text-decoration: none;
+}
+#logo1 {
+	width: 30px;
+	height: 30px;
+}
+
+#title {
+	float: center;
+}
+
+#box1 {
+	
+	height: 30px;
+	background-color: red;
+	margin: 0;
+}
+
+#MyLinks {
+	
+	height: 30px;
+	background-color: #87CEEB;
+	margin: 0;
+	padding-top: 5px;
+}
+
+#MyLinks li {
+	display: inline-block;
+	float: right;
+	list-style: none;
+	
+}
+ #MyLinks li a{
+ 	float: right;
+	text-decoration: none;
+	display: block;
+	padding: 3.5px 10px;
+
+	
+}
+
+#MyLinks li ul{
+	position: relative;
+	display: none;
+}
+
+#MyLinks li:hover ul{
+	position: relative;
+	display: block;
+}
+
+#MyLinks li ul li {
+
+	background-color: red;
+
+}
+
+#MyLinks li ul li a{
+	padding: 5px 10px;
+}
+
+#links li a:hover{
+	padding: 5px 10px;
+	background-color: red;
+}
+ #index_bdy {
+ 	background-image: url(twenty-pounds-notes.jpg);
+ 	background-size: cover;
+ }
+#box2 {
+	
+	height: 500px;
+	background-image: url(Student4.jpg);	
+	background-size: cover;
+	margin: 0;
+	font-color: blue;
+
+}
+ #faqs {
+ 	height: 950px;
+	background-image: url(New-car.jpg);	
+	background-size: cover;
+	margin: 0;
+	text-indent: 50px;
+}
+#faq1 {
+	text-decoration: underline; 
+ }
+
+ #box4 {
+ 	
+	height: 40px;
+	margin: 0;
+	background-color: blue;
+ }
+
+#box3 {
+	height: 500px;
+	background-image: url("San Diego.jpg");	
+	background-size: cover;
+	margin: 0;
+	text-indent: 30px;
+}
+
+#box5 {
+	height: 500px;
+	background-image: url("San Diego.jpg");	
+	background-size: cover;
+	margin: 0;
+	text-indent: 30px;
+}
+
+#User {
+	float: left;
+	text-indent: 20px;
+	color: blue;
+}
+#Login_Form {
+	position: fixed;
+	overflow-y: scroll;
+	top: 200px;
+	right: 1000px;
+	bottom: 100px;
+	width: auto;
+
+}
+#cash1{
+	width: 50px;
+	height: 50px;
+}
+footer {
+	
+	height: 30px;
+	background-color: none;
+	margin: 0;
+	text-align: center;
+}
+#p1 {
+	margin: 0;
+}
+
+#ft2 {
+	
+	background: #4169E1;
+}
+	
+		#calc{
+			width: 400px;
+			height: 500px;
+			background-color: #87CEEB;
+			font-weight: 600;
+			color: blue;
+			padding: 30px;
+			margin-top: 20px;
+			margin-left: 450px;
+			margin-bottom: 20px;
+			border-radius: 100px;
+			font-size: 25px;
+			text-align: center;
+
+
+
+	}	
+	#amount{
+	width: 100px;
+			height: 20px;	
+	}
+
+	#interest_rate{
+	width: 100px;
+			height: 20px;	
+	}
+
+	#months{
+	width: 100px;
+			height: 20px;	
+	}
+
+	#

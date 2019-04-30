@@ -3,30 +3,37 @@
 	#user_sign_up {
 			width: 400px;
 			height: 500px;
-			background-color: pink;
+			background-color: #F5F5F5;
 			font-weight: 600;
 			color: blue;
 			padding: 20;
-			margin-top: 5px;
+			margin-top: 10px;
 			margin-left: 500px;
 			font-size: 15px;
-			text-shadow: purple;
 			text-align: center;
+			border-radius: 20px;
 
 	}
 
 	#button1{
+		width: 100px;
+		padding: 3px;
 		text-decoration: none;
-		background: red;		
+		border-radius: 20px;
+		background: #87CEEB;		
 	}	
 
 	#button2{
 			width: 150px;
 			height: 30px;
 			border-radius: 30px;
-			background: purple;
+			background: #87CEEB;
 			padding: 5px;
-			
+			font-size: 15px;
+			list-style: none;
+			text-decoration: none;
+
+
 	}
 	#reset {
 		font-size: 15px;
@@ -34,14 +41,21 @@
 
 	}
 	#sgnup {
-		font-size: 15px;
+		
 		list-style: none;
+		text-decoration: none;
 
+	}
+	#h1 {
+		text-decoration: none;
+	}
+	#h2 {
+		text-decoration: underline;
 	}
 	#login {
 		font-size: 15px;
 		list-style: none;
-		background: red;
+		background: none;
 	}
 
 
