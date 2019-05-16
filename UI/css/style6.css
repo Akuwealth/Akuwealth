@@ -29,7 +29,7 @@ header a {
 #box1 {
 	
 	height: 30px;
-	background-color: red;
+	background-color:;
 	margin: 0;
 	padding: 5px;
 }
@@ -37,7 +37,7 @@ header a {
 #MyLinks {
 	
 	height: 30px;
-	background-color: red;
+	background-color: #A9A9A9;
 	margin: 0;
 	padding-top: 5px;
 }
@@ -57,6 +57,15 @@ header a {
 	
 }
 
+#MyLinks li:visited a{
+ 	float: right;
+	text-decoration: none;
+	display: block;
+	padding: 3.5px 10px;
+	background-color: none;
+
+}
+
 #MyLinks li ul{
 	position: relative;
 	display: none;
@@ -69,7 +78,7 @@ header a {
 
 #MyLinks li ul li {
 
-	background-color: red;
+	background-color: ;
 
 }
 
@@ -195,27 +204,36 @@ footer {
 	}
 
 	#staff {
-		height: 500px;
+		height: 1000px;
 		width: auto;
-		background: red;
+		background: #A9A9A9;
 		float: left;
 		text-decoration: none;
 	}
 	#Data {
-		height: 500px;
+		height: 1000px;
 		background: #87CEEB;
-		width: 1650px;
+		width: 2000px;
 
-	}#Sidebar {
-		height: 500px;
+	}
+
+	#Specific_Applic {
+		padding: 5px;
+		text-indent: 20px;
+
+	}
+	
+
+	#Sidebar {
+		height: 1000px;
 		width: 400;
-		background: red;
+		background: #20B2AA;
 		float: left;
 	}
  #Sidebar li  {
  	text-decoration: none;
  	padding: 20px;
- 	padding-bottom: 2px solid grey;
+ 	padding-bottom: ;
 
  }
  #Sidebar li a {
@@ -223,12 +241,14 @@ footer {
  }
  #adminlogo {
  	height: 70px;
- 	width: 1650px;
- 	background:blue;
+ 	width: 2000px;
+ 	background:#4682B4;
  }
 
  #staffimg {
  	border-radius: 30px;
+	width: 50px;
+	height: 50px;
  }
 
  #Row1 {
@@ -239,9 +259,23 @@ footer {
  	padding: 10px;
  }
  #box7 {
- 	width: 1650px;
+ 	width: 2000px;
  }
 
  #table {
  	padding: 5px;
  }
+
+ #social {
+	
+	height: 200px;
+	background-image: 	
+	background-size: cover;
+	margin: 0;
+	color: ;
+	text-decoration: none; 
+	text-align: center;
+	font-size: ;
+	background-color: #DCDCDC;
+
+}

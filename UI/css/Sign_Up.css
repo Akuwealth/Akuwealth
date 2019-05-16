@@ -6,8 +6,8 @@
 			background-color: #F5F5F5;
 			font-weight: 600;
 			color: blue;
-			padding: 20;
-			margin-top: 10px;
+			padding: 20px;
+			margin-top: none;
 			margin-left: 500px;
 			font-size: 15px;
 			text-align: center;
@@ -58,6 +58,12 @@
 		background: none;
 	}
 
+	#input {
+		height: 25px;
+		width: 200px;
+		border-radius: 5px;
 
+
+}
 
 	

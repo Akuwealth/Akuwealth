@@ -5,13 +5,15 @@
 
 
 header {
-	width: auto;
+	position: fixed;
+	width: 100%;
 	height: 60px;
-	background-color: none;
+	background-color:  #4682B4;
 	background-image: none;
 	background-size: cover;
 	padding-top: 10px;
 	text-align: left;
+
 
 }
 header a {
@@ -19,7 +21,7 @@ header a {
 }
 #logo1 {
 	width: 30px;
-	height: 30px;
+	height: 15px;
 }
 
 #title {
@@ -36,7 +38,7 @@ header a {
 #MyLinks {
 	
 	height: 30px;
-	background-color: red;
+	background-color: none;
 	margin: 0;
 	padding-top: 5px;
 }
@@ -90,14 +92,14 @@ header a {
 	background-image: url("../images/Student4.jpg");	
 	background-size: cover;
 	margin: 0;
-	font-color: blue;
+	font-color: none;
 
 }
  #faqs {
  	height: 950px;
 	background-image: url("../images/New-car.jpg");	
 	background-size: cover;
-	margin: 0;
+	padding-top: 50px;
 	text-indent: 50px;
 }
 #faq1 {
@@ -218,3 +220,17 @@ footer {
  #staffimg {
  	size: 5px;
  }
+
+ #social {
+	
+	height: 200px;
+	background-image: 	
+	background-size: cover;
+	margin: 0;
+	color: ;
+	text-decoration: none; 
+	text-align: center;
+	font-size: ;
+	background-color: #DCDCDC;
+
+}
