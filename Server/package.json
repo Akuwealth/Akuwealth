@@ -10,11 +10,11 @@
     "users.test": "mocha --require babel-register tests/*.js --exit",
     "repayments.test": "mocha --require babel-register tests/*.js --exit",
     "start": "nodemon transpiled/index.js"
-
   },
   "author": "Aku.O.",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.4.4",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
