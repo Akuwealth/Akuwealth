@@ -1,0 +1,36 @@
+{
+  "name": "server2",
+  "version": "1.0.0",
+  "description": "A Loan application ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register tests/*.js --exit",
+    "test:coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "loans.test": "mocha --require babel-register tests/*.js --exit",
+    "users.test": "mocha --require babel-register tests/*.js --exit",
+    "repayments.test": "mocha --require babel-register tests/*.js --exit",
+    "start": "nodemon transpiled/index.js"
+  },
+  "author": "Aku.O.",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "npm": "^6.9.0",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "coveralls": "^3.0.3",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.19.0"
+  }
+}
