@@ -6,7 +6,7 @@ const router = express.Router();
 router.get("/api/v1/loans", loanController.getLoans);
 router.post("/api/v1/loans", loanController.createLoan);
 router.get("/api/v1/loans/:id", loanController.getOneLoan);
-router.patch("/api/v1/loans/:id", loanController.approveLoan);
+router.patch("/api/v1/loans/:id", loanController.updateLoan);
 router.delete("/api/v1/loans/:id", loanController.deleteLoan);
 router.get("/api/v1/loans/loans?status=approved&repaid=false", loanController.getUnrepaidLoans);
 router.get("/api/v1/loans/loans?status=approved&repaid=true", loanController.getRepaidLoans);
