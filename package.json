@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --require babel-register tests/test.js --exit",
     "test:coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "test:loans": "mocha --require babel-register tests/loans.test.js --exit",
+    "test:loans": "mocha --require babel-register tests/loan.test.js --exit",
     "test:users": "mocha --require babel-register tests/users.test.js --exit",
     "test:repayments": "mocha --require babel-register tests/repayments.test.js --exit",
     "start": "nodemon transpiled/index.js"
