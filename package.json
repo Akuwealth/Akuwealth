@@ -4,7 +4,7 @@
   "description": "A Loan application ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-register tests/*.js --exit",
+    "test": "mocha --require babel-register tests/test.js --exit",
     "test:coveralls": "nyc report --reporter=text-lcov | coveralls",
     "loans.test": "mocha --require babel-register tests/*.js --exit",
     "users.test": "mocha --require babel-register tests/*.js --exit",
