@@ -98,7 +98,7 @@ static getRepaidLoans(req, res) {
 
 
 
-  static approveLoan(req, res) {
+  static updateLoan(req, res) {
      const id = parseInt(req.params.id, 10);
     let loanFound;
   let itemIndex;
