@@ -96,7 +96,7 @@ static verifyUser(req, res) {
   return res.status(201).send({
     success: 'true',
     message: 'user updated successfully',
-    updatedUser,
+    verifiedUser,
   });
 };
 
